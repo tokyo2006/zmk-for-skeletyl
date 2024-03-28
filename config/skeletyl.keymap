@@ -117,64 +117,6 @@
         };
     };
 
-    macros {
-        pw1: pw1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(K) &kp O &kp D &kp A &kp K &kp N5 &kp N2 &kp N2 &kp N2>;
-            label = "PW1";
-        };
-
-        pw2: pw2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(K) &kp O &kp D &kp A &kp K &kp LS(T) &kp R &kp I &kp X &kp N4 &kp N0 &kp N0>;
-            label = "PW2";
-        };
-
-        pw3: pw3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(G) &kp K &kp N2 &kp N1 &kp N5 &kp N1 &kp N5 &kp N0 &kp N7 &kp N0 &kp N6 &kp N2 &kp N6>;
-            label = "PW3";
-        };
-
-        ma1: ma1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp A &kp N &kp T &kp I &kp N &kp I &kp N &kp O &kp DOT &kp C &kp H &kp E &kp N &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
-            label = "MA1";
-        };
-
-        ma2: ma2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp D &kp E &kp S &kp P &kp E &kp R &kp A &kp D &kp O &kp DOT &kp Y &kp C &kp C &kp H &kp E &kp N &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
-            label = "MA2";
-        };
-
-        ph1: ph1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp N1 &kp N3 &kp N5 &kp N8 &kp N5 &kp N6 &kp N0 &kp N9 &kp N9 &kp N9 &kp N5>;
-            label = "PH1";
-        };
-
-        ph2: ph2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp N1 &kp N3 &kp N0 &kp N6 &kp N4 &kp N7 &kp N0 &kp N2 &kp N4 &kp N3 &kp N0>;
-            label = "PH2";
-        };
-
-        idn: idn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp N3 &kp N1 &kp N0 &kp N1 &kp N0 &kp N9 &kp N1 &kp N9 &kp N9 &kp N0 &kp N1 &kp N2 &kp N0 &kp N5 &kp N0 &kp N5 &kp N1 &kp N2>;
-            label = "IDN";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
