@@ -140,7 +140,7 @@
 
         raise_layer {
             bindings = <
-&pw1                                    &pw2                                  &pw3                              &ma1                       &ma2                   &ph1                  &ph2           &idn                                    &kp SINGLE_QUOTE   &kp DELETE
+&none                                   &none                                 &none                             &none                      &none                  &none                 &none          &none                                   &kp SINGLE_QUOTE   &kp DELETE
 &kp LS(LC(LA(LG(LEFT_ARROW))))          &kp LS(LA(LC(LG(UP_ARROW))))          &kp LS(LA(LC(LG(DOWN))))          &kp LS(LA(LC(LG(RIGHT))))  &kp LS(LG(SEMICOLON))  &kp HOME              &kp PG_UP      &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS       &kp DOUBLE_QUOTES  &kp COLON
 &kp LS(LG(NUMBER_4))                    &kp LS(LG(N5))                        &kp LS(LG(NUMBER_6))              &kp LC(LEFT)               &kp LC(RIGHT)          &kp END               &kp PAGE_DOWN  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans             &kp CAPSLOCK
                                 &trans                                &trans                            &trans                             &trans                 &trans    &kp INSERT
